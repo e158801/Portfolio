@@ -1,0 +1,49 @@
+.gradient-background{background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);}
+
+
+
+.profile-img {
+    height: 200px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+ .light {
+   width: 10px;
+   height: 10px;
+   background: red;
+   border-radius: 50%;
+      bottom: 295px;
+   position: absolute;
+   z-index: 10;
+   left: 20px;
+   animation: light 800ms ease-in-out 0s infinite alternate;
+ }
+ .cloud {
+   position: absolute;
+   top: 0px;
+   right: -500px;
+   opacity: .8;
+    animation: cloud 10s linear 0s infinite reverse;
+   z-index: 99;
+ }
+ @keyframes light {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+ }
+ @keyframes cloud {
+   from {right:-500px;}
+   to {right: 102%;}
+ }
+
+ .my-5 {
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;}
+
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: var(--bs-nav-pills-link-active-color);
+        background-color: #cba8e5;
+    }
+.nav-link{color:#cba8e5;}
+.btn{background-color: #cba8e5;}
